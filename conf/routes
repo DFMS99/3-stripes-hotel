@@ -1,20 +1,12 @@
-GET     /todo                    controllers.TodoListController.getAll
-GET    /todo/:itemId             controllers.TodoListController.getById(itemId: Long)
-POST     /todo                   controllers.TodoListController.addNewItem
-
-GET     /users                controllers.ChatServiceController.getAll
-GET    /users/:itemId         controllers.ChatServiceController.getById(itemId: Long)
+GET     /users                controllers.ChatServiceController.getAllUsers
+GET    /users/:username         controllers.ChatServiceController.getUserByUsername(username: String)
 POST     /users              controllers.ChatServiceController.addNewUser
-DELETE    /users/:itemUser             controllers.ChatServiceController.deleteUser(itemUser: String)
-POST   /users/:username/wispers          controllers.ChatServiceController.addWisper(username: String)
-GET    /users/:username/wispers        controllers.ChatServiceController.getWisper(username: String, fromUser: String)
+DELETE    /users/:username             controllers.ChatServiceController.deleteUser(username: String)
 
-GET     /rooms                controllers.ChatServiceController.getAllRoom
-GET    /rooms/:itemId         controllers.ChatServiceController.getByIdRoom(itemId: Long)
+GET     /rooms                controllers.ChatServiceController.getAllRooms
+GET    /rooms/:roomId         controllers.ChatServiceController.getRoomById(roomId: String)
 POST     /rooms              controllers.ChatServiceController.addNewRoom
 DELETE    /rooms/:itemRoom             controllers.ChatServiceController.deleteRoom(itemRoom: String)
-POST   /rooms/:roomId/messages          controllers.ChatServiceController.addMessages(roomId: String)
-
 
 GET     /versionedAssets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 
