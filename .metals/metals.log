@@ -5842,3 +5842,20 @@ ADVERTENCIA: Unmatched cancel notification for request id 59
 2022.05.18 08:44:22 INFO  time: compiled root in 8.14s
 2022.05.18 08:44:25 INFO  compiling root (13 scala sources and 1 java source)
 2022.05.18 08:44:41 INFO  time: compiled root in 16s
+may. 18, 2022 8:51:35 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2022.05.18 08:51:50 ERROR No project associated with Uri(file:/C:/Users/danie/Desktop/Curso%20funcional%20y%20scala/3-stripes-hotel/?id=root)
+2022.05.18 08:51:50 ERROR No project associated with Uri(file:/C:/Users/danie/Desktop/Curso%20funcional%20y%20scala/3-stripes-hotel/?id=root)
+2022.05.18 08:51:50 ERROR No project associated with Uri(file:/C:/Users/danie/Desktop/Curso%20funcional%20y%20scala/3-stripes-hotel/?id=root)
+2022.05.18 08:51:57 ERROR No project associated with Uri(file:/C:/Users/danie/Desktop/Curso%20funcional%20y%20scala/3-stripes-hotel/?id=root)
+2022.05.18 08:51:57 ERROR No project associated with Uri(file:/C:/Users/danie/Desktop/Curso%20funcional%20y%20scala/3-stripes-hotel/?id=root)
+2022.05.18 08:51:57 ERROR No project associated with Uri(file:/C:/Users/danie/Desktop/Curso%20funcional%20y%20scala/3-stripes-hotel/?id=root)
+2022.05.18 08:52:04 ERROR No project associated with Uri(file:/C:/Users/danie/Desktop/Curso%20funcional%20y%20scala/3-stripes-hotel/?id=root)
+2022.05.18 08:52:04 ERROR No project associated with Uri(file:/C:/Users/danie/Desktop/Curso%20funcional%20y%20scala/3-stripes-hotel/?id=root)
+2022.05.18 08:52:04 ERROR No project associated with Uri(file:/C:/Users/danie/Desktop/Curso%20funcional%20y%20scala/3-stripes-hotel/?id=root)
+may. 18, 2022 8:53:55 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2022.05.18 08:55:25 INFO  compiling root (1 scala source)
+2022.05.18 08:55:25 INFO  time: compiled root in 0.83s
+2022.05.18 08:55:31 INFO  compiling root (1 scala source)
+2022.05.18 08:55:34 INFO  time: compiled root in 3.24s

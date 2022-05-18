@@ -1,3 +1,5 @@
+*.class
+*.log
 logs
 target
 /.bsp
@@ -7,3 +9,8 @@ target
 /.project
 /.settings
 /RUNNING_PID
+.bloop
+.g8
+.metals
+.vscode
+
