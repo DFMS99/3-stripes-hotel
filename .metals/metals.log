@@ -5859,3 +5859,9 @@ INFORMACIÓN: Unsupported notification method: $/setTrace
 2022.05.18 08:55:25 INFO  time: compiled root in 0.83s
 2022.05.18 08:55:31 INFO  compiling root (1 scala source)
 2022.05.18 08:55:34 INFO  time: compiled root in 3.24s
+2022.05.18 08:58:07 INFO  compiling root (1 scala source)
+2022.05.18 08:58:07 INFO  time: compiled root in 0.71s
+2022.05.18 08:59:28 INFO  compiling root (1 scala source)
+2022.05.18 08:59:28 INFO  time: compiled root in 0.71s
+2022.05.18 08:59:34 INFO  compiling root (1 scala source)
+2022.05.18 08:59:37 INFO  time: compiled root in 3.6s

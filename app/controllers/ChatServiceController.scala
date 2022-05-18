@@ -84,7 +84,7 @@ extends BaseController {
             jsonObject.flatMap( 
                 Json.fromJson[NewUser](_).asOpt 
             )
-        userxddfs match {
+        user match {
             case Some(newItem) =>
                 if(chatService.filter(_.username == newItem.username).isEmpty){
                     if (chatService.isEmpty) {

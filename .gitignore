@@ -9,8 +9,8 @@ target
 /.project
 /.settings
 /RUNNING_PID
-.bloop
-.g8
-.metals
-.vscode
+/.bloop
+/.g8
+/.metals
+/.vscode
 
