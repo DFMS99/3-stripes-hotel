@@ -9,11 +9,12 @@ import scala.util.Success
 
 class RoomService {
   private val roomsDB = new mutable.ListBuffer[Room]()
+  roomsDB += Room(UUID.randomUUID(), "General")
 
 
-  def getAll(): List[Room] = ???
+  def getAll(): List[Room] = roomsDB.toList
 
-  def findById(): Option[Room] = ???
+  def findById(id: String): Option[Room] = roomsDB.find(_.id == UUID.fromString(id))
 
   def addRoom (roomname: String): Try[Room] = {
       roomsDB.find(_.roomname == roomname) match {
@@ -26,13 +27,13 @@ class RoomService {
         }
     }
 
-    def removeRoom(id: String): Try[Room] = {
-        roomsDB.find(_.id == id) match {
+    def removeRoom(roomname: String): Try[Room] = {
+        roomsDB.find(_.roomname == roomname) match {
             case Some(room) => {
                 roomsDB -= room
                 Success(room)
             }
-            case None => Failure(new Exception("The user doesn't exist")) // The user already exists 
+            case None => Failure(new Exception("The room doesn't exist")) // The user already exists 
         }
     }
 }

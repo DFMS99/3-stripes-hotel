@@ -54,7 +54,7 @@ extends BaseController {
 
     def getUserByUsername(username: String) = Action {
 
-        val userOpt = userService.findByUsername()
+        val userOpt = userService.findByUsername(username)
 
         userOpt match {
             case Some(user) => Ok(Json.toJson(user))
@@ -64,7 +64,7 @@ extends BaseController {
 
     def getRoomById(id: String) = Action {
 
-        val roomOpt = roomService.findById()
+        val roomOpt = roomService.findById(id)
 
         roomOpt match {
             case Some(room) => Ok(Json.toJson(room))

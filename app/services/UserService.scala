@@ -13,7 +13,7 @@ class UserService {
 
     def getAll(): List[User] = usersDB.toList
 
-    def findByUsername(): Option[User] = ???
+    def findByUsername(username: String): Option[User] = usersDB.find(_.username == username) 
 
     def addUser(username: String): Try[User] = {
         usersDB.find(_.username == username) match {
