@@ -2,15 +2,15 @@
     "version": "1.4.0",
     "project": {
         "name": "root-3-stripes-hotel-build-build",
-        "directory": "C:\\Users\\danie\\Desktop\\Curso funcional y scala\\3-stripes-hotel\\project\\project",
-        "workspaceDir": "C:\\Users\\danie\\Desktop\\Curso funcional y scala\\3-stripes-hotel\\project\\project",
+        "directory": "C:\\Users\\danie\\Desktop\\3-stripes-hotel\\project\\project",
+        "workspaceDir": "C:\\Users\\danie\\Desktop\\3-stripes-hotel\\project\\project",
         "sources": [
-            "C:\\Users\\danie\\Desktop\\Curso funcional y scala\\3-stripes-hotel\\project\\project\\src\\main\\scala",
-            "C:\\Users\\danie\\Desktop\\Curso funcional y scala\\3-stripes-hotel\\project\\project\\src\\main\\scala-2.12",
-            "C:\\Users\\danie\\Desktop\\Curso funcional y scala\\3-stripes-hotel\\project\\project\\src\\main\\scala-2",
-            "C:\\Users\\danie\\Desktop\\Curso funcional y scala\\3-stripes-hotel\\project\\project\\src\\main\\java",
-            "C:\\Users\\danie\\Desktop\\Curso funcional y scala\\3-stripes-hotel\\project\\project\\src\\main\\scala-sbt-1.0",
-            "C:\\Users\\danie\\Desktop\\Curso funcional y scala\\3-stripes-hotel\\project\\project\\target\\scala-2.12\\sbt-1.0\\src_managed\\main"
+            "C:\\Users\\danie\\Desktop\\3-stripes-hotel\\project\\project\\src\\main\\scala",
+            "C:\\Users\\danie\\Desktop\\3-stripes-hotel\\project\\project\\src\\main\\scala-2.12",
+            "C:\\Users\\danie\\Desktop\\3-stripes-hotel\\project\\project\\src\\main\\scala-2",
+            "C:\\Users\\danie\\Desktop\\3-stripes-hotel\\project\\project\\src\\main\\java",
+            "C:\\Users\\danie\\Desktop\\3-stripes-hotel\\project\\project\\src\\main\\scala-sbt-1.0",
+            "C:\\Users\\danie\\Desktop\\3-stripes-hotel\\project\\project\\target\\scala-2.12\\sbt-1.0\\src_managed\\main"
         ],
         "dependencies": [
             
@@ -105,11 +105,11 @@
             "C:\\Users\\danie\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\squareup\\okio\\okio\\1.17.2\\okio-1.17.2.jar",
             "C:\\Users\\danie\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\config\\1.3.3\\config-1.3.3.jar"
         ],
-        "out": "C:\\Users\\danie\\Desktop\\Curso funcional y scala\\3-stripes-hotel\\project\\project\\.bloop\\root-3-stripes-hotel-build-build",
-        "classesDir": "C:\\Users\\danie\\Desktop\\Curso funcional y scala\\3-stripes-hotel\\project\\project\\.bloop\\root-3-stripes-hotel-build-build\\scala-2.12\\sbt-1.0\\classes",
+        "out": "C:\\Users\\danie\\Desktop\\3-stripes-hotel\\project\\project\\.bloop\\root-3-stripes-hotel-build-build",
+        "classesDir": "C:\\Users\\danie\\Desktop\\3-stripes-hotel\\project\\project\\.bloop\\root-3-stripes-hotel-build-build\\scala-2.12\\sbt-1.0\\classes",
         "resources": [
-            "C:\\Users\\danie\\Desktop\\Curso funcional y scala\\3-stripes-hotel\\project\\project\\src\\main\\resources",
-            "C:\\Users\\danie\\Desktop\\Curso funcional y scala\\3-stripes-hotel\\project\\project\\target\\scala-2.12\\sbt-1.0\\resource_managed\\main"
+            "C:\\Users\\danie\\Desktop\\3-stripes-hotel\\project\\project\\src\\main\\resources",
+            "C:\\Users\\danie\\Desktop\\3-stripes-hotel\\project\\project\\target\\scala-2.12\\sbt-1.0\\resource_managed\\main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -201,9 +201,9 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "C:\\Users\\danie\\AppData\\Local\\Coursier\\cache\\arc\\https\\github.com\\AdoptOpenJDK\\openjdk11-binaries\\releases\\download\\jdk-11%252B28\\OpenJDK11-jdk_x64_windows_hotspot_11_28.zip\\jdk-11+28",
+                "home": "C:\\Users\\danie\\.jabba\\jdk\\adopt@1.11.0-11",
                 "options": [
-                    "-Duser.dir=C:\\Users\\danie\\Desktop\\Curso funcional y scala\\3-stripes-hotel\\project\\project"
+                    "-Duser.dir=C:\\Users\\danie\\Desktop\\3-stripes-hotel\\project\\project"
                 ]
             },
             "mainClass": [

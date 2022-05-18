@@ -80,11 +80,11 @@ extends BaseController {
     def addNewUser() = Action { implicit request => 
         val content = request.body 
         val jsonObject = content.asJson 
-        val users: Option[NewUser] = 
+        val user: Option[NewUser] = 
             jsonObject.flatMap( 
                 Json.fromJson[NewUser](_).asOpt 
             )
-        users match {
+        userxddfs match {
             case Some(newItem) =>
                 if(chatService.filter(_.username == newItem.username).isEmpty){
                     if (chatService.isEmpty) {
