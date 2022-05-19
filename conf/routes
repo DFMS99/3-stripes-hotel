@@ -12,4 +12,5 @@ GET     /versionedAssets/*file               controllers.Assets.versioned(path="
 
 #Routes for WebSocket chat application
 GET     /chat                   controllers.WebSocketChat.index
-GET     /chatSocket             controllers.WebSocketChat.socket
+GET     /roomChatSocket/:username        controllers.WebSocketChat.roomChatSocket(username: String)
+GET     /whisperSocket/:username         controllers.WebSocketChat.whisperSocket(username: String)

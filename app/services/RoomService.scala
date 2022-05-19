@@ -7,9 +7,13 @@ import scala.util.Failure
 import java.util.UUID
 import scala.util.Success
 
-class RoomService {
-  private val roomsDB = new mutable.ListBuffer[Room]()
+object RoomService {
+  val roomService = new RoomService()
+}
 
+class RoomService {
+
+  private val roomsDB = new mutable.ListBuffer[Room]()
 
   def getAll(): List[Room] = ???
 

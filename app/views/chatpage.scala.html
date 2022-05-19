@@ -1,9 +1,21 @@
 @()(implicit request: RequestHeader, flash: Flash)
 
 @main("WebSocket Chat") {
-    <input type="hidden" id="ws-route" value="@routes.WebSocketChat.socket.absoluteURL()">
-    <textarea id="chat-area" rows="40" cols="80"></textarea>
+    <p>Room</p>
+    <textarea id="room-area" rows="15" cols="80"></textarea>
     <br>
-    <input type="text" id="chat-input" size="80">
-    <script src="@routes.Assets.versioned("javascripts/chat.js")"></script>
+    <input type="text" id="room-input" size="80">
+
+<br>
+<br>
+<hr>
+
+    <p>Whisper</p>
+    <textarea id="whisper-area" rows="15" cols="80"></textarea>
+    <br>
+    <input type="text" id="whisper-user" size="80" placeholder="Whisper to">
+    <br>
+    <input type="text" id="whisper-input" size="80">
+
+<script src="@routes.Assets.versioned("javascripts/chat.js")"></script>
 }
