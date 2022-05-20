@@ -17,6 +17,7 @@ class WhisperManager extends Actor {
                 case Some(whisperActor) =>{
                     println(s"WhisperManager: User found $userTo")
                     whisperActor ! WhisperActor.ReceiveWhisper(userFrom, msg)
+                    sender() ! WhisperActor.ReceiveWhisper(s"$userFrom-$userTo", msg)
                 }
                 case None => {
                     println(s"WhisperManager: User not found $userTo, ")
